@@ -1,0 +1,8 @@
+server:
+  port: 9443
+  ssl:
+    key-store: classpath:jks/server-keystore.jks
+    key-store-password: server-keystore-p455w0rd
+    key-alias: server-keypair
+    key-password: server-key-p455w0rd
+
